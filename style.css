@@ -11,7 +11,7 @@
 h1{
   color: #0B0223;
 font-family: Work Sans;
-font-size: 48px;
+font-size: 4.8rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -21,8 +21,11 @@ img{
   width: 100%;
 }
 .container{
-  width: 1450px;
+  width: 135rem;
   margin: 0 auto;
+}
+html{
+  font-size: 62.5%;
 }
 /* header section === nav bar === */
 
@@ -31,37 +34,37 @@ nav{
   justify-content: space-between;
   align-items: center;
   background: #FFF;
-  padding: 25px 0;
+  padding: 2.5rem 0;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .logo{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 .nav-button ul{
   display: flex;
-  gap: 32px;
+  gap: 3.2rem;
   align-items: center;
 }
 .nav-button ul li a{
   color: #3C354F;
 text-align: center;
 font-family: Work Sans;
-font-size: 18px;
+font-size: 1.8rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
 .nav-button button{
-  padding: 15px 25px;
-  border-radius: 8px;
+  padding: 1.5rem 2.5rem;
+  border-radius: .8rem;
 background: rgba(11, 2, 35, 0.10);
 color: #3C354F;
 text-align: center;
 font-family: Work Sans;
-font-size: 18px;
+font-size: 1.8rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -75,7 +78,7 @@ border: none;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   
-  gap: 50px;
+  gap: 5.0rem;
 }
 main{
   background-image: url(images/Group\ 14.png);
@@ -84,7 +87,7 @@ main{
 }
 .hero-text h2{
 font-family: Work Sans;
-font-size: 95px;
+font-size: 9.5rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -96,38 +99,38 @@ background-clip: text;
 
 .hero-text p{
   color: #534C64;
- margin: 15px 0;
+ margin: 1.5rem 0;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 2rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-transform: lowercase;
 }
 .hero-text button{
-  border-radius: 48px;
+  border-radius: 4.8rem;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-padding: 20px 40px;
+padding: 2rem 4rem;
 color: #FFF;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 2rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
 border: none;
-margin: 40px 20px 0 0;
+margin: 4rem 2rem 0 0;
 }
 #hero-btn{
   color: #FFF;
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border-radius: 48px;
+  border-radius: 4.8rem;
 background: #4EC5F7;
-padding: 20px 40px;
+padding: 2rem 4rem;
 
 }
 
@@ -138,7 +141,7 @@ padding: 20px 40px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Work Sans;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -148,22 +151,22 @@ padding: 20px 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 .funny-video p{
   color: #534C64;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 2rem;
 font-style: normal;
 font-weight: 500;
-line-height: 30px;
-margin-top: 20px;  
+line-height: 3rem;
+margin-top: 2rem;  
 }
 .funny-card-container{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  gap: 24px;
-  margin-top:  50px;
+  gap: 2.4rem;
+  margin-top:  5rem;
 }
 
 /* play game */
@@ -173,20 +176,20 @@ margin-top: 20px;
   align-items: center;
   position: relative;
   justify-content: space-between;
-  margin-top: 120px;
+  margin-top: 12rem;
 }
 .pg-short{
   position: absolute;
-  width: 318px;
-height: 365px;
+  width: 31.8rem;
+height: 36.5rem;
 bottom: 0;
 left: 35%;
 }
 .play-img{
-padding-bottom: 120px;
+padding-bottom: 12rem;
 }
 .play-text{
-  margin-left: 250px;
+  margin-left: 25rem;
 }
 .play-text h1 span{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -197,31 +200,31 @@ background-clip: text;
 .play-text p{
   color: #534C64;
 font-family: Work Sans;
-font-size: 18px;
+font-size: 1.8rem;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; 
-margin-top: 24px;
+line-height: 3rem; 
+margin-top: 2.4rem;
 }
 
 /* games */
 .games ul li{
 display: inline-block;
-border-radius: 50px;
+border-radius: 5rem;
 color: #0B0223;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 2rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-padding: 10px 20px;
-margin: 20px 5px;
+padding: 1rem 2rem;
+margin: 2rem .5rem;
 border: 1px solid transparent;
 cursor: pointer;
 }
 .games{
   text-align: center;
-  padding: 120px 0;
+  padding: 12rem 0;
 }
 .games img{
   width: 60px;
@@ -230,13 +233,13 @@ height: 60px;
 .game{
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1.6rem;
 
 }
 .game h5{
   color: #0B0223;
 font-family: Work Sans;
-font-size: 20px;
+font-size: 2rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -255,36 +258,122 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0;
+  padding: 12rem 0;
 }
 footer .logo{
   margin-bottom: 50px;
 }
 footer ul {
   display: flex;
-  gap: 60px;
-  margin: 20px 0;
+  gap: 6rem;
+  margin: 2rem 0;
 }
 footer ul li a{
   color: rgba(255, 255, 255, 0.60);
 text-align: center;
 font-family: Work Sans;
-font-size: 16px;
+font-size: 1.6rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
 footer ul li i{
   color: #FFF;
-  font-size: 40px;
+  font-size: 4rem;
 }
 footer h6{
   color: rgba(255, 255, 255, 0.60);
 text-align: center;
 font-family: Work Sans;
-font-size: 16px;
+font-size: 1.6rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin-top: 25px;
+margin-top: 2.5rem;
 }
+
+
+
+
+/* media query */
+
+/* mobile device responsive*/
+@media screen and (max-width:425px) {
+  html{
+    font-size: 40%;
+  }
+  .container{
+    width: 400px;
+  }
+  /* nav bar */
+  nav{
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-button ul{
+    display: block;
+    text-align: center;
+  }
+  .nav-button ul li {
+    padding: 20px 0;
+    
+  }
+  .nav-button ul li a{
+    font-size: 18px;
+  }
+  /* hero */
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text{
+    order: 1;
+  }
+  .funny-video h1{
+    text-align: center;
+  }
+  .funny-card-container{
+    display: block;
+  }
+  .funny-card{
+    margin-bottom: 30px;
+  }
+
+/* play game */
+  .play-game{
+    display: flex;
+    flex-direction: column;
+  }
+  .play-img{
+    order: 1;
+  }
+  .play-text{
+    margin-left: 0;
+    text-align: center;
+  }
+
+/* footer */
+footer ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.terms{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+}
+.footer-icon{
+  margin: 50px 0;
+}
+
+}
+@media screen and (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+}
+
