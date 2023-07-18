@@ -173,6 +173,7 @@ margin-top: 20px;
   align-items: center;
   position: relative;
   justify-content: space-between;
+  margin-top: 120px;
 }
 .pg-short{
   position: absolute;
@@ -201,4 +202,89 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; 
 margin-top: 24px;
+}
+
+/* games */
+.games ul li{
+display: inline-block;
+border-radius: 50px;
+color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px 20px;
+margin: 20px 5px;
+border: 1px solid transparent;
+cursor: pointer;
+}
+.games{
+  text-align: center;
+  padding: 120px 0;
+}
+.games img{
+  width: 60px;
+height: 60px;
+}
+.game{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+}
+.game h5{
+  color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.games ul li:hover{
+  border: 1px solid #F948B2;
+  color: red;
+}
+.game h5:hover{
+  color: #F948B2;
+}
+/* footer */
+footer{
+  background: #0B0223;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+footer .logo{
+  margin-bottom: 50px;
+}
+footer ul {
+  display: flex;
+  gap: 60px;
+  margin: 20px 0;
+}
+footer ul li a{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+footer ul li i{
+  color: #FFF;
+  font-size: 40px;
+}
+footer h6{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 25px;
 }
