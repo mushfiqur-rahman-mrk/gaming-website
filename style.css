@@ -211,7 +211,8 @@ padding: 10px 0;
 }
 .funny-img:hover .overlay{
   opacity: 1;
-  transition: .5s;
+  transition: .3s;
+  border: 2px solid rgb(255, 0, 0);
 }
 /* play game */
 .play-game{
