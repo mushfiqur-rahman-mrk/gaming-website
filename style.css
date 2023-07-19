@@ -21,21 +21,23 @@ img{
   width: 100%;
 }
 .container{
-  width: 135rem;
+  width: 130rem;
   margin: 0 auto;
 }
 html{
   font-size: 62.5%;
 }
 /* header section === nav bar === */
+header{
+  background: #FFF;
+  padding: 2.5rem 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
+}
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #FFF;
-  padding: 2.5rem 0;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .logo{
   display: flex;
@@ -347,6 +349,15 @@ margin-top: 2.5rem;
     justify-content: center;
     align-items: center;
   }
+  nav .logo img{
+    width: 80px;
+    height: 30px;
+    object-fit: contain;
+    
+  }
+  nav .logo{
+    gap: 5px;
+  }
   .nav-button ul{
     display: block;
     text-align: center;
@@ -368,6 +379,14 @@ margin-top: 2.5rem;
   }
   .funny-video h1{
     text-align: center;
+    font-size: 3rem;
+  }
+  .funny-video h1 span{
+    font-size: 3rem;
+  }
+  .funny-video p{
+    text-align: center;
+    font-size: 1.5rem;
   }
   .funny-card-container{
     display: block;
@@ -380,6 +399,7 @@ margin-top: 2.5rem;
   .play-game{
     display: flex;
     flex-direction: column;
+    margin-top: 6rem;
   }
   .play-img{
     order: 1;
@@ -388,6 +408,9 @@ margin-top: 2.5rem;
     margin-left: 0;
     text-align: center;
   }
+ .play-text p{
+  margin: 3.5rem 0;
+ }
   .pg-short{
     width: 150px;
     height: 150px;
@@ -404,8 +427,8 @@ margin-top: 2.5rem;
   gap: 10px;
 }
 .game img{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 .game h5{
   font-size: 10px;
@@ -416,9 +439,6 @@ margin-top: 2.5rem;
 .game{
   gap: 5px;
 }
-
-
-
 
 /* footer */
 footer ul{
@@ -436,9 +456,38 @@ footer ul{
 }
 
 }
-@media screen and (max-width:768px) {
+
+/*================= tablate responsive =======================*/
+
+@media screen and (min-width:600px) and (max-width:768px) {
   html{
-    font-size: 45%;
+    font-size: 40%;
+  }
+  .container{
+    width: 600px;
+  }
+  nav .logo img{
+    width: 70px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .pg-short{
+    width: 150px;
+    height: 150px;
+  }
+  .play-img{
+    padding-bottom:40px ;
+  }
+  .play-text{
+    margin-left: 100px ;
+  }
+  .funny-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 40px;
+  }
+  main{
+    padding-top: 40px;
   }
 }
 
