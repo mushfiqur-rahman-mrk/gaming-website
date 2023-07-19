@@ -27,6 +27,9 @@ img{
 html{
   font-size: 62.5%;
 }
+button, .funny-card, i{
+  cursor: pointer;
+}
 /* header section === nav bar === */
 header{
   background: #FFF;
