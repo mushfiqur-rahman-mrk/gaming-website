@@ -72,7 +72,10 @@ font-weight: 500;
 line-height: normal;
 border: none;
 }
-
+.nav-button i{
+  padding: 0 5px;
+  font-size: 18px;
+ }
 
 /* hero section */
 .hero{
@@ -369,14 +372,23 @@ margin-top: 2.5rem;
   .nav-button ul li a{
     font-size: 18px;
   }
+ .nav-button i{
+  padding: 0 5px;
+  font-size: 18px;
+ }
   /* hero */
   .hero{
     display: flex;
     flex-direction: column;
+    gap: 70px;
   }
   .hero-text{
     order: 1;
   }
+  main{
+    background-position: bottom left;
+  }
+  /* funny video section */
   .funny-video h1{
     text-align: center;
     font-size: 3rem;
@@ -386,7 +398,7 @@ margin-top: 2.5rem;
   }
   .funny-video p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .funny-card-container{
     display: block;
@@ -414,7 +426,7 @@ margin-top: 2.5rem;
   .pg-short{
     width: 150px;
     height: 150px;
-    left: 65%;
+    left: 64%;
 
   }
   .play-img{
